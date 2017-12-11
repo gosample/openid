@@ -1,0 +1,23 @@
+{
+  "issuer":"http://localhost/oidc/local",
+  "token_endpoint_auth_methods_supported":["client_secret_basic","client_secret_post"],
+  "token_endpoint_auth_signing_alg_values_supported":[],
+  "scopes_supported":["openid","profile","email","phone","offline_access"],
+  "response_types_supported":["code","code id_token","code token","id_token","token id_token","code id_token token"],
+  "display_values_supported":["page","popup"],
+  "subject_types_supported":["pairwise"],
+  "claim_types_supported":["normal"],
+  "claims_supported":["sub","name","given_name","family_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthday","updated_at","phone_number","phone_number_verified","email","email_verified","locale","zoneinfo"],
+  "claims_parameter_supported":true,
+  "ui_locales_supported":["en-US"],
+  "userinfo_signing_alg_values_supported":["none"],
+  "id_token_signing_alg_values_supported":["HS256"],
+  "response_modes_supported":["query","fragment","form_post"],
+  "jwks_uri":"",
+  "authorization_endpoint":"http://localhost/oidc/local/authorize",
+  "token_endpoint":"http://localhost/oidc/local/token",
+  "userinfo_endpoint":"http://localhost/oidc/local/userinfo",
+  "end_session_endpoint":"http://localhost/oidc/local/logout",
+  "check_session_iframe":"http://localhost/oidc/local/session",
+  "registration_endpoint":"http://localhost/oidc/local/registration"
+}
